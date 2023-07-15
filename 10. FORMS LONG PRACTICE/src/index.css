@@ -1,0 +1,59 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.App{
+  max-width: 600px;
+  margin:0 auto;
+  display:flex;
+  flex-direction: column;
+  gap:1rem;
+  align-items: center;
+  padding:5rem 2rem 0;
+}
+H1{
+  color: royalblue;
+}
+form div{
+  margin-bottom: 10px;
+}
+input, select{
+  padding:0.2rem 1rem;
+  margin-left: 1rem;
+  outline: none;
+  border-radius: 10px;
+  border: 1px solid rgb(156, 156, 156);
+}
+.radio label, .checkbox label{
+  margin-left: 5px;
+}
+textarea{
+  width:100%;
+  padding:1rem;
+  outline: none;
+  border: 1px solid rgb(156, 156, 156);
+  border-radius: 10px;
+}
+button{
+  background-color: royalblue;
+  padding:0.5rem 2rem;
+  color:white;
+  border: none;
+  border-radius: 10px;
+  outline:none;
+  cursor: pointer;
+}
+button:active{
+  scale:0.9;
+}
+.errors p {
+  color:firebrick;
+  text-align: center;
+  font-weight: 500;
+}
+.submit{
+  display: flex;
+  justify-content: end;
+}
